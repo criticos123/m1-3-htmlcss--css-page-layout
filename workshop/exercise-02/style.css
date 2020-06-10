@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    font-family: Poppins,sans-serif;
+    display:flex;
+}
+
+.nav{
+    display: flex;
+    align-items:center;
+    min-width: 100vw;
+    background-color: #313633;
+    color: white;
+    justify-content: center;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin:40px;
+    
+}
+a:hover{
+    opacity: 0.5;
+
+}
+
+
