@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    font-family: Poppins,sans-serif;
+    display:flex;
+}
+.center{
+    display:flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    min-width: 100vw;
+    background-color:#313633;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot{
+    display: flex;
+    min-width: 100vw;
+    background-color:#313633;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    margin: auto;
+}
+
+
+
