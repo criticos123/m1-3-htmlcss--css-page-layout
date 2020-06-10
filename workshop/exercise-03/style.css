@@ -1,0 +1,21 @@
+body{
+        background: url(bg.jpg) no-repeat right bottom;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+}
+.center{
+    display:flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+h1{
+    color: white;
+    font-family: Poppins;
+}
