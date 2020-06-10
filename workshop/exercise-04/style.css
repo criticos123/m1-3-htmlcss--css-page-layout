@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    font-family: Poppins,sans-serif;
+    display:flex;
+}
+
+.nav{
+    text-align: center;
+}
+section{
+    display: flex;
+    align-items:center;
+    min-width: 100vw;
+    justify-content: center
+}
+
+p{
+    margin-top:15px;
+    margin-bottom: 5px;
+}
+
+.link {
+    color: #0070c9;
+    text-decoration: none;
+    position: relative;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.link::after {
+    content: '>';
+    display: block;
+    position: absolute;
+    right: -12px;
+    bottom: -2px;
+    transition: right ease 300ms;
+}
+.link:hover::after {
+    right: -18px;
+}
