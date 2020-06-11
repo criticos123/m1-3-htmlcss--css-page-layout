@@ -2,12 +2,42 @@ body {
   margin: 0;
 }
 
-.nav {
-  background-color: #383737;
+.button {
+  background-color:black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  padding-right: 200px;
 }
 
-.nav-dropdown {
-  color: #fff;
-  text-decoration: none;
+.nav {
+  position: relative;
   display: inline-block;
+}
+
+.bar {
+  display: none;
+  position: absolute;
+  background-color: #03a9f4;
+}
+
+.bar a {
+  color:white;
+  padding:16px;
+  text-decoration: none;
+  display: block;
+}
+
+.bar a:hover {
+  background-color:blue;
+}
+
+.nav:hover .bar {
+  display: block;
+  min-width: 5vw;
+}
+
+.nav:hover .button {
+  background-color:black;
 }
