@@ -1,16 +1,58 @@
 body {
   margin: 0;
 }
-
 .main {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .fast {
+  animation: slideIn 1s ease-in-out;
 }
 
 .cool {
+  background-color: blue;
+  position: relative;
+  padding:30px 40px;
+  border-radius:10px; 
+  border: 0px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+
+  80% {
+    transform: scale(1.2);
+  }
+
+  90% { 
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+button:hover {
+  animation: bounce 1s;
 }
